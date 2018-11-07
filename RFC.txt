@@ -1,0 +1,17 @@
+Red Chat Protocol RFC:
+
+1st bit:
+0 - recieve
+1 - send
+
+rest of 1st byte: header type
+0000000 - ping request
+0000001 - ping return
+
+0000010 - message send
+0000011 - message recieve
+
+All bytes after that are data!
+
+
+
